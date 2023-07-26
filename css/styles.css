@@ -109,7 +109,7 @@ body {
 .about-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main-black-color);
@@ -121,9 +121,7 @@ body {
 }
 
 /* what we do section (Works) */
-.title-hidden {
-  line-height: 1.2;
-}
+
 /* Team section */
 
 .team-section {
@@ -169,11 +167,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--light-grey-color);
+  color: var(--accent-color-normal);
 }
 
 .logo-part-txt-footer {
-  color: var(--accent-color-normal);
+  color: var(--light-grey-color);
 }
 
 .footer-txt {
@@ -193,13 +191,14 @@ body {
   line-height: calc(24 / 16);
   letter-spacing: 0.04em;
   text-transform: capitalize;
-  color: var(--main-white-color);
-  background-color: var(--accent-color-normal);
+  color: var(--accent-color-normal);
+  background-color: var(--light-grey-color);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   cursor: pointer;
+  color: var(--main-white-color);
   background-color: var(--accent-color-hover);
 }
 
