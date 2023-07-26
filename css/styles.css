@@ -34,11 +34,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-black-color);
+  color: var(--accent-color-normal);
 }
 
 .logo-part-txt-header {
-  color: var(--accent-color-normal);
+  color: var(--main-black-color);
 }
 
 .nav-link {
@@ -121,7 +121,9 @@ body {
 }
 
 /* what we do section (Works) */
-
+.title-hidden {
+  line-height: 1.2;
+}
 /* Team section */
 
 .team-section {
@@ -157,6 +159,16 @@ body {
 
 .page-footer {
   background-color: var(--main-black-color);
+}
+
+.logo-link-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-grey-color);
 }
 
 .logo-part-txt-footer {
