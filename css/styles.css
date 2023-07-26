@@ -1,0 +1,206 @@
+:root {
+  --main-white-color: #ffffff;
+  --main-black-color: #2e2f42;
+  --body-txt-grey-color: #434455;
+  --light-grey-color: #f4f4fd;
+  --accent-color-normal: #4d5ae5;
+  --accent-color-hover: #404bbf;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--body-txt-grey-color);
+  background-color: var(--main-white-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration-line: none;
+  font-style: normal;
+}
+
+/* STUDIO */
+
+/* Header styles */
+
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color-normal);
+}
+
+.logo-part-txt-header {
+  color: var(--main-black-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: var(--main-black-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color-hover);
+}
+
+.link-current {
+  color: var(--accent-color-hover);
+}
+
+.contacts-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color-hover);
+}
+
+/* Hero section */
+
+.hero-section {
+  background-color: var(--main-black-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  color: var(--main-white-color);
+}
+
+.primary-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  color: var(--main-white-color);
+  background-color: var(--accent-color-normal);
+}
+
+.primary-button:hover,
+.primary-button:focus {
+  cursor: pointer;
+  background-color: var(--accent-color-hover);
+}
+
+/* About section */
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.about-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: var(--main-black-color);
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
+/* what we do section (Works) */
+
+/* Team section */
+
+.team-section {
+  background-color: var(--light-grey-color);
+}
+
+.team-item {
+  background-color: var(--main-white-color);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  color: var(--main-black-color);
+}
+
+.team-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  color: var(--main-black-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+}
+
+/* Footer styles */
+
+.page-footer {
+  background-color: var(--main-black-color);
+}
+
+.logo-part-txt-footer {
+  color: var(--light-grey-color);
+}
+
+.footer-txt {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: var(--light-grey-color);
+}
+
+/* PORTFOLIO */
+
+/* Cards section */
+
+.portfolio-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--main-white-color);
+  background-color: var(--accent-color-normal);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  cursor: pointer;
+  background-color: var(--accent-color-hover);
+}
+
+.card-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  text-transform: capitalize;
+  color: var(--main-black-color);
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  text-transform: capitalize;
+  color: var(--body-txt-grey-color);
+}
