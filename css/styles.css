@@ -14,12 +14,12 @@ body {
   background-color: var(--main-white-color);
 }
 
-ul {
-  list-style-type: none;
+.list {
+  list-style: none;
 }
 
-a {
-  text-decoration-line: none;
+.link {
+  text-decoration: none;
   font-style: normal;
 }
 
@@ -31,7 +31,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: calc(21 / 18);
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color-normal);
@@ -44,7 +44,8 @@ a {
 .nav-link {
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(24 / 16);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--main-black-color);
 }
 
@@ -102,19 +103,6 @@ a {
 }
 
 /* About section */
-
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
 
 .about-title {
   font-weight: 500;
